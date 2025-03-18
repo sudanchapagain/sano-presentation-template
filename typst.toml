@@ -1,6 +1,6 @@
 [package]
 name = "sano-presentation-template"
-version = "0.1.2"
+version = "1.0.0"
 entrypoint = "lib.typ"
 authors = ["Sudan Chapagain <https://sudanchapagain.com.np/>"]
 license = "MIT"
@@ -13,4 +13,4 @@ exclude = ["template/main.pdf"]
 [template]
 path = "template/"
 entrypoint = "main.typ"
-thumbnail = ""
+thumbnail = "thumbnail.png"

@@ -1,4 +1,4 @@
-#import "@preview/sano-presentation-template:0.1.2": *
+#import "@preview/sano-presentation-template:1.0.0": *
 
 #show: sano.with(
   config-info(
@@ -22,7 +22,7 @@ Write a small and descriptive description for your presentation. You can have mo
   - Just like in this graph, node "d" has now been revealed.
 ], [
   #{
-    import "@preview/fletcher:0.5.2" as fletcher: node, edge
+    import "@preview/fletcher:0.5.7" as fletcher: node, edge
     let fletcher-diagram = touying-reducer.with(reduce: fletcher.diagram, cover: fletcher.hide)
 
     let nodes = ("a", "e", "f", "g")

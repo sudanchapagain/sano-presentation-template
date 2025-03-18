@@ -8,6 +8,14 @@ Usage
 
 Create a new typst project based on this template locally.
 
-```text
-
+```bash
+typst init @preview/sano-presentation-template
+cd sano-presentation-template
 ```
+
+Or create a project on the typst web app based on this template.
+
+Showcase
+----------
+
+![A sample title page of the package's output PDF](./thumbnail.png)

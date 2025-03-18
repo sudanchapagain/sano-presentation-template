@@ -1,4 +1,4 @@
-#import "@preview/touying:0.5.5": *
+#import "@preview/touying:0.6.1": *
 
 #let sano-colors = (
   dark: rgb("#000000"),
