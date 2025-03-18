@@ -1,16 +1,16 @@
 [package]
-name = "upb-corporate-design-slides"
+name = "sano-presentation-template"
 version = "0.1.2"
 entrypoint = "lib.typ"
-authors = ["Tammes Burghard <https://kuchenmampfer.de/>", "Marvin Feiter"]
+authors = ["Sudan Chapagain <https://sudanchapagain.com.np/>"]
 license = "MIT"
-description = "Presentation template for Paderborn University (UPB)"
-repository = "https://codeberg.org/Kuchenmampfer/upb-corporate-design-slides"
-keywords = ["UPB", "Paderborn University", "Universität Paderborn", "Presentation"]
+description = "Small and minimal presentation template"
+repository = "https://github.com/sudanchapagain/sano-presentation-template"
+keywords = ["small", "minimal", "Presentation"]
 categories = ["presentation"]
 exclude = ["template/main.pdf"]
 
 [template]
 path = "template/"
 entrypoint = "main.typ"
-thumbnail = "thumbnail.png"
+thumbnail = ""
